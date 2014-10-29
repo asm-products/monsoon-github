@@ -3,12 +3,12 @@ var dotenv = require('dotenv');
 var express = require('express');
 var fs = require('fs');
 var path = require('path');
-var github = require('./lib/github');
 
 dotenv.load();
 
 var app = express();
 var controllers = require('./controllers');
+var github = require('./lib/github');
 
 // middleware
 
