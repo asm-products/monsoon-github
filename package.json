@@ -32,6 +32,9 @@
     "sequelize": "^2.0.0-rc2",
     "sequelize-cli": "^0.3.3"
   },
+  "engines": {
+    "node": "0.10.x"
+  },
   "devDependencies": {
     "chai": "^1.9.2",
     "mocha": "^2.0.1",
