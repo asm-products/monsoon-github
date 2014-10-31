@@ -13,7 +13,6 @@ var github = require('./lib/github');
 // middleware
 
 app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({ extended: true }));
 
 // routes
 app.use('/', controllers.subscribers);
